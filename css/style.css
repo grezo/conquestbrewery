@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,700,300italic|Montserrat:400,700);
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2193,7 +2192,7 @@ li .no {
   @media (min-width: 820px) {
     .ourBeers {
       font-size: 1em;
-      background: url(../images/secNav_m1.jpg) no-repeat;
+      background: url(../images/secNav_m1.gif) no-repeat;
       background-size: contain;
       padding-top: 7%;
       padding-bottom: 5%;
@@ -2201,7 +2200,7 @@ li .no {
   @media (min-width: 900px) {
     .ourBeers {
       font-size: 1em;
-      background: url(../images/secNav_m1.jpg) no-repeat;
+      background: url(../images/secNav_m1.gif) no-repeat;
       background-size: contain;
       padding-top: 7%;
       padding-bottom: 5%;
@@ -2209,7 +2208,7 @@ li .no {
   @media (min-width: 1024px) {
     .ourBeers {
       font-size: 1em;
-      background: url(../images/secNav_m1.jpg) no-repeat;
+      background: url(../images/secNav_m1.gif) no-repeat;
       background-size: contain;
       padding-top: 7%;
       margin-right: 25px; } }
@@ -2223,7 +2222,7 @@ li .no {
   @media (min-width: 820px) {
     .tastingRoom {
       font-size: 1em;
-      background: url(../images/secNav_m2.jpg) no-repeat;
+      background: url(../images/secNav_m2.gif) no-repeat;
       background-size: contain;
       padding-top: 7%;
       padding-bottom: 5%;
@@ -2231,7 +2230,7 @@ li .no {
   @media (min-width: 900px) {
     .tastingRoom {
       font-size: 1em;
-      background: url(../images/secNav_m2.jpg) no-repeat;
+      background: url(../images/secNav_m2.gif) no-repeat;
       background-size: contain;
       padding-top: 7%;
       padding-bottom: 5%;
@@ -2239,7 +2238,7 @@ li .no {
   @media (min-width: 1024px) {
     .tastingRoom {
       font-size: 1em;
-      background: url(../images/secNav_m2.jpg) no-repeat;
+      background: url(../images/secNav_m2.gif) no-repeat;
       background-size: contain;
       padding-top: 7%;
       margin-right: 25px; } }
@@ -2253,21 +2252,21 @@ li .no {
   @media (min-width: 820px) {
     .about {
       font-size: 1em;
-      background: url(../images/secNav_m3.jpg) no-repeat;
+      background: url(../images/secNav_m3.gif) no-repeat;
       background-size: contain;
       padding-top: 7%;
       padding-bottom: 5%; } }
   @media (min-width: 900px) {
     .about {
       font-size: 1em;
-      background: url(../images/secNav_m3.jpg) no-repeat;
+      background: url(../images/secNav_m3.gif) no-repeat;
       background-size: contain;
       padding-top: 7%;
       padding-bottom: 5%; } }
   @media (min-width: 1024px) {
     .about {
       font-size: 1em;
-      background: url(../images/secNav_m3.jpg) no-repeat;
+      background: url(../images/secNav_m3.gif) no-repeat;
       background-size: contain;
       padding-top: 7%; } }
   @media (min-width: 1200px) {
