@@ -1,0 +1,42 @@
+@mixin small {
+ @media (min-width: #{$small}) {
+    @content;
+  }
+}
+
+@mixin smallish {
+  @media (min-width: #{$smallish}) {
+    @content;
+  }
+}
+
+@mixin notsmall {
+  @media (min-width: #{$notsmall}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: #{$medium}) {
+    @content;
+  }
+}
+
+@mixin mediumish {
+  @media (min-width: #{$mediumish}) {
+    @content;
+  }
+}
+
+
+@mixin large {
+  @media (min-width: #{$large}) {
+    @content;
+  }
+}
+
+@mixin xlarge {
+  @media (min-width: #{$xlarge}) {
+    @content;
+  }
+}

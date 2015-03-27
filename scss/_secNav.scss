@@ -1,0 +1,274 @@
+.secNav{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	background: url(../images/woodNav.png) no-repeat 0 0;
+	background-size: cover;
+	max-width: 100%;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	height: 140px;
+
+	@include small {
+		height: 170px;
+	}
+
+	@include smallish {
+		height: 200px;
+	}
+
+	@include notsmall {
+		height: 235px;
+	}
+
+	@include medium {
+		height: 290px;
+	}
+
+	@include mediumish {
+		height: 300px;
+		background: url(../images/woodNav_lg.png) no-repeat 0 0;
+		background-size: cover;
+	}
+
+	@include large {
+		height: 350px;
+		
+	}
+
+	@include xlarge {
+		
+		width: 1200px;
+		padding-bottom: 1%;
+		position: relative;
+		z-index: 10;
+	}
+
+	ul {
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+		padding-top: 10%;
+
+		@include smallish {
+			padding-top: 10%;
+		}
+
+		@include notsmall{
+			padding-top: 10%;
+		}
+
+		@include medium {
+			padding-top: 4%;
+		}
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		width: 32%;
+
+
+		@include smallish {
+			width: 195px;
+			height: 92px;
+			width: 30%;
+			
+		}
+
+		@include notsmall {
+	
+			height: 92px;
+			width: 30%;
+			
+		}
+
+		@include medium {
+
+			height: 80px;
+			width: 30%;
+		}
+
+		@include mediumish {
+	
+			height: 90px;
+			width: 30%;
+		}
+
+		@include large {
+	
+			height: 100px;
+			width: 30%;
+			
+		}
+		@include xlarge {
+
+			height: 142px;
+			width: 30%;
+		}
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		font-family: 'Averia Serif Libre', Times, serif;
+		font-size: 1.6em;
+		font-weight: 700;
+		line-height: .87em;
+		letter-spacing: -1px;
+		text-shadow: 0 0 12px #000000;
+
+		@include smallish {
+			font-size: 1.8em;
+		}
+
+		@include notsmall {
+			font-size: 1.8em;
+		}
+
+		@include medium {
+			font-size: 2em;
+		}
+
+		@include mediumish {
+			font-size: 2em;
+		}
+
+		@include large {
+			font-size: 2.5em;
+		}
+		@include xlarge {
+			font-size: 3em;
+		}
+	}
+}
+
+
+
+
+// ========================OUR BEERS========================= //
+
+
+
+
+
+.ourBeers {
+	margin: 0 auto;
+	text-align: center;
+
+
+	@include medium {
+		font-size: 1em;
+		background: url(../images/secNav_m1.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+		padding-bottom: 5%;
+		margin-right: 25px;
+	}
+
+	@include mediumish {
+		font-size: 1em;
+		background: url(../images/secNav_m1.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+		padding-bottom: 5%;
+		margin-right: 25px;
+	}
+
+	@include large {
+		font-size: 1em;
+		background: url(../images/secNav_m1.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+		margin-right: 25px;
+	}
+
+	@include xlarge {
+		padding-top: 7%;
+	}
+}
+
+
+
+
+// ========================TASTING ROOM========================= //
+
+
+
+
+.tastingRoom {
+	margin: 0 auto;
+	text-align: center;
+
+
+	@include medium {
+		font-size: 1em;
+		background: url(../images/secNav_m2.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+		padding-bottom: 5%;
+		margin-right: 25px;
+	}
+
+	@include mediumish {
+		font-size: 1em;
+		background: url(../images/secNav_m2.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+		padding-bottom: 5%;
+		margin-right: 25px;
+	}
+
+	@include large {
+		font-size: 1em;
+		background: url(../images/secNav_m2.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+		margin-right: 25px;
+	}
+
+	@include xlarge {
+		padding-top: 7%;
+	}
+}
+
+
+
+
+// ========================ABOUT========================= //
+
+
+
+.about {
+	margin: 0 auto;
+	text-align: center;
+
+
+	@include medium {
+		font-size: 1em;
+		background: url(../images/secNav_m3.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+		padding-bottom: 5%;
+	}
+
+	@include mediumish {
+		font-size: 1em;
+		background: url(../images/secNav_m3.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+		padding-bottom: 5%;
+	}
+
+	@include large {
+		font-size: 1em;
+		background: url(../images/secNav_m3.jpg) no-repeat;
+		background-size: contain;
+		padding-top: 7%;
+	}
+
+	@include xlarge {
+		padding-top: 7%;
+	}
+}

@@ -1,0 +1,130 @@
+.mainNav {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	float: right;
+	clear: right;
+	display: none;
+	max-width: 1200px;
+
+	ul {
+		display: block;
+		height: 350px;
+		margin: 0 auto;
+		padding: 20px;
+		text-align: center;
+		margin-top: 25px;
+	}
+
+	li {
+		list-style: none;
+		margin-bottom: 15px;
+	}
+
+	a {
+		color: #fff;
+		font-family: $serif;
+		font-weight: 700;
+		-webkit-font-smoothing: antialiased;
+		text-decoration: none;
+		font-size: 1.5em;
+	}
+
+	//media query for nav to appear after hamburger icon
+
+	@include notsmall {
+		background: none;
+	}
+
+	@include medium {
+		background: none;
+		display: block !important; //Greg helped with this, jquery glitch to make sure styles are not overriden when applying JQuery.
+		position: absolute;
+		right: 2%;
+		
+		ul {
+			display: block;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+			float: right;
+			margin-top: 30px;
+		}
+
+		li {
+			display: inline-block;
+			list-style: none;
+			margin-right: 15px;
+		}
+
+		a {
+			color: #fff;
+			font-family: $serif;
+			-webkit-font-smoothing: antialiased;
+			text-decoration: none;
+			font-size: .75em; 
+		}
+	}
+
+
+	@include mediumish {
+		display: block;
+
+
+		ul {
+			height: 0px;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+			float: right;
+			margin-top: 30px;
+		}
+		li {
+			display: inline-block;
+			list-style: none;
+			margin-right: 20px;
+		}
+		a {
+			color: #fff;
+			font-family: $serif;
+			-webkit-font-smoothing: antialiased;
+			text-decoration: none;
+			font-size: .80em; 
+		}
+	}
+
+	@include large {
+		display: block;
+
+		ul {
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+			float: right;
+			margin-top: 30px;
+		}
+		li {
+			display: inline-block;
+			list-style: none;
+			margin-right: 35px;
+		}
+		a {
+			color: #fff;
+			font-family: $serif;
+			-webkit-font-smoothing: antialiased;
+			text-decoration: none;
+			font-size: .85em; 
+		}
+	}
+
+	@include xlarge {
+		position: absolute;
+		right: 12%;
+	}
+}
+
+li .no {
+	margin-right: 0;
+}
+
+

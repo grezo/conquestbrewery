@@ -1,0 +1,150 @@
+
+.aboutContent {
+	margin: 0 auto;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	color: #374a49;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.aboutintro {
+
+	h2 {
+		font-family: $serif;
+		font-size: 2.3em;
+	}
+
+	h3 {
+		font-family: $serif;
+		font-size: 1.5em;
+		color: #878787;
+		font-style: italic;
+		font-weight: 300;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	p {
+		line-height: 1.5;
+		-webkit-font-smoothing: antialiased;
+		text-align: left;
+		color: #374a49;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+
+	@include medium {
+		h2 {
+			margin-top: 60px;
+			margin-bottom: 0;
+		}
+
+		h3 {
+			margin-top: 0;
+		}
+
+		p {
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+	}
+
+	@include mediumish {
+		h2 {
+			font-size: 2.5em;
+		}
+
+		h3 {
+			font-size: 2.2em;
+		}
+
+		p {
+			font-size: .95em;
+		}
+	}
+
+	@include large {
+		h2 {
+			font-size: 2.8em;
+		}
+
+		h3 {
+			font-size: 2.3em;
+		}
+
+		p {
+			font-size: 1em;
+			max-width: 1024px;
+		}
+	}
+}
+
+.bio1 {
+	margin: 0 auto;
+	background: url(../images/joseph.jpg) no-repeat;
+	background-size: cover;
+	padding: 100px;
+	position: relative;
+	margin-bottom: 40px;
+	text-align: left;
+	max-width: 960px;
+
+	h2 {
+		line-height: 33px;
+		letter-spacing: -2px;
+		text-shadow: 0 0 12px #000000;
+		-webkit-font-smoothing: antialiased;
+		font-family: $serif;
+		color: #fff;
+		font-size: 2.5em;
+		position: absolute;
+		top: 15%;
+		left: 9%;
+	}
+
+	@include mediumish {
+		padding: 150px;
+
+		h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+		}
+	}
+}
+
+.bio2 {
+	margin: 0 auto;
+	background: url(../images/matthew_2.jpg) no-repeat;
+	background-size: cover;
+	padding: 100px;
+	position: relative;
+	margin-bottom: 40px;
+	text-align: left;
+	max-width: 960px;
+
+	h2 {
+		line-height: 33px;
+		letter-spacing: -2px;
+		text-shadow: 0 0 12px #000000;
+		-webkit-font-smoothing: antialiased;
+		font-family: $serif;
+		color: #fff;
+		font-size: 2.5em;
+		position: absolute;
+		top: 15%;
+		right: 9%;
+	}
+
+	@include mediumish {
+		margin: 0 auto;
+		padding: 150px;
+
+		h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+		}
+	}
+}

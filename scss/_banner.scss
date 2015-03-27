@@ -1,0 +1,80 @@
+.banner {
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	background: url(../images/m_banner.jpg) no-repeat;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	padding-top: 55%;
+	position: relative;
+	clear: both;
+
+
+	@include mediumish {
+		box-sizing: border-box;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		color: #fff;
+		background: url(../images/banner3.jpg) no-repeat;
+		background-size: cover;
+		-webkit-font-smoothing: antialiased;
+		padding-top: 55%;
+		position: relative;
+	}
+	@include large {
+		box-sizing: border-box;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		color: #fff;
+		background: url(../images/banner2.jpg) no-repeat;
+		background-size: cover;
+		-webkit-font-smoothing: antialiased;
+		padding-top: 55%;
+		position: relative;
+		max-width: 1200px;
+		overflow: hidden;
+	}
+
+	p {
+		margin: 0;
+		display: block;
+		padding: 15%;
+		text-indent: -9999px;
+		background: url(../images/slogan.png) no-repeat center;
+		background-size: contain;
+		position: absolute;
+		max-width: 100%;
+		top: 9%;
+		right: 4%;
+
+		@include small {
+			top: 9%;
+			right: 7%;
+		}
+
+		@include smallish {
+			top: 9%;
+			right: 8%;
+		}
+
+		@include medium {
+			top: 11%;
+			right: 10%;
+		}
+
+		@include mediumish {
+			top: 12%;
+			right: 10%;
+		}
+
+		@include large {
+			top: 12%;
+			right: 10%;
+		}
+	}
+}
+

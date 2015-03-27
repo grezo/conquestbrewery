@@ -1,0 +1,65 @@
+.headNav {
+	position: relative;
+	background-color: #3b4949;
+	background: url(../images/footer_lg.jpg) no-repeat top center;
+	background-size: cover;
+
+	@include xlarge {
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);	
+	}
+}
+
+header {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.logo {
+
+	a {
+		margin: 0;
+		display: inline-block;
+		padding: 20px;
+		text-indent: -9999px;
+		background: url(../images/mobile_logo.png) no-repeat center;
+		background-size: contain;
+		max-width: 100%;
+		float: left;
+	}
+}
+
+#hamburger {
+	margin-top: 13px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	float: right;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	border: 2px solid #b0a66b;
+	border-radius: 5px;
+	padding-top: 38px;
+	text-align: center;
+	position: relative;
+	font-size: .65em;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 7px;
+	
+		&:before {
+			margin: 0 auto;
+			font-family: 'FontAwesome';
+			-webkit-font-smoothing: antialiased;
+			content: $fa-var-navicon;
+			color: #fff;
+			font-size: 3em;
+			display: inline-block;
+			padding-right: 10px;
+			position: absolute;
+			top: 0;
+			left: 13px;
+		}
+
+	@include medium {
+		display: none;
+		}
+}

@@ -1,0 +1,246 @@
+.beerType {
+	background-color: #eeebec;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #c9c48a;
+
+	ul {
+		max-width: 1024px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		width: 30%;
+	}
+
+	a {
+		text-decoration: none;
+		color: #374a49;
+		font-family: $serif;
+	}
+}
+
+
+
+.beerContent {
+	padding-top: 60px;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #eeebec;
+	color: #374a49;
+	max-width: 1200px;
+
+	h2 {
+		margin: 0;
+		margin-bottom: 10px;
+		padding: 0;
+		font-family: $serif;
+		font-size: 2.2em;
+		font-weight: 700;
+		-webkit-font-smoothing: antialiased;
+		letter-spacing: -2px;
+	}
+
+	@include notsmall {
+		margin: 0 auto;
+
+
+		img {
+			margin-top: 40px;
+			float: left;
+			width: 35%;
+			padding-left: 10%;
+		}
+	}
+}
+
+
+
+.beerintro {
+	max-width: 1200px;
+	margin-bottom: 10px;
+
+	p { 
+		font-family: $serif;
+		font-weight: 300;
+		font-style: italic;
+		font-size: 1.6em;
+		color: #374a49;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		max-width: 808px;
+	}
+
+	@include notsmall {
+		margin-bottom: 40px;
+	}
+}
+
+.vital {
+	background-color: #eeebec;
+	margin: 0 auto;
+	width: 342px;
+	
+	h3 {
+		font-size: 1.5em;
+		font-family: $serif;
+	}
+
+	@include notsmall {
+		float: left;
+		width: 30%;
+	}
+}
+
+.vitalStats {
+	margin-bottom: 15px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		width: 345px;
+		display: inline-block;
+		list-style: none;
+		text-align: left;
+		-webkit-font-smoothing: antialiased;
+		margin-bottom: 15px;
+		font-size: .87em;
+		position: relative
+	}
+
+	span {
+		text-align: right;
+		position: absolute;
+		right: 0px;
+		border-bottom: 1px solid #c9c48a;
+		width: 345px;
+		padding-bottom: 10px;
+	}
+
+	p {
+		line-height: 1.5;
+		-webkit-font-smoothing: antialiased;
+		text-align: left;
+		color: #374a49;
+		padding-top: 25px;
+		margin-bottom: 65px;
+	}
+
+	@include notsmall {
+		width: 345px;
+	}
+}
+
+.malts {
+	height: 100px;
+}
+
+
+
+.social {
+
+	h2 {
+		margin: 0;
+		padding: 0;
+		margin-bottom: 15px;
+		-webkit-font-smoothing: antialiased;
+		font-size: 1.6em;
+		font-family: $serif;
+		color: #fff;
+	}
+
+	ul {
+		padding: 0 0 20px;
+		margin: 0;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		height: 40px;
+		margin-right: 10px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #c9c48a;
+		-webkit-font-smoothing: antialiased;
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-indent: -9999px;
+		position: relative;  // Font awesome technique with SASS.  You must text-indent the text then absolutely position the pseudo element to top: 0px / right: 0px to get the icon to show up. //  
+
+		&:hover {
+			color: #fff;
+		}
+
+		&:before {
+			margin: 0 auto;
+			font-family: 'FontAwesome';
+			-webkit-font-smoothing: antialiased;
+			content: $fa-var-facebook-square;
+			font-size: 2em;
+			display: block;
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			top:0; left: 0;
+			text-indent: 0;
+			line-height: 40px;
+		}
+	}
+
+
+
+/* ====================SOCIAL ICONS==================== */
+
+
+
+
+}
+.facebook {
+
+	a:before {
+		content: $fa-var-facebook-square;
+	}
+}
+
+.twitter {
+
+	a:before {
+		content: $fa-var-twitter-square;
+	}
+}
+
+.instagram {
+
+	a:before {
+			content: $fa-var-instagram;
+		}
+}
+
+.reddit {
+
+	a:before {
+			content: $fa-var-reddit-square;
+		}
+}
+
+.flickr {
+
+	a:before {
+		margin-right: 0;
+		content: $fa-var-flickr;
+		}
+}

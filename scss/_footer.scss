@@ -1,0 +1,28 @@
+footer {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: url(../images/footer_lg.jpg) no-repeat;
+	background-color: #1d2423;
+	background-size: cover;
+
+	@include notsmall {
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+}
+
+p {
+	color: #fff;
+	margin: 0;
+	padding: 2%;
+	font-size: .87em;
+	-webkit-font-smoothing: antialiased;
+
+	@include notsmall {
+		clear: left;
+		padding: 0;
+	}
+}

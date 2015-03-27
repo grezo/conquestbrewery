@@ -1,0 +1,166 @@
+.listContent {
+	padding-top: 50px;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #eeebec;
+	color: #374a49;
+	max-width: 1200px;
+
+	h2 {
+		margin: 0;
+		margin-bottom: 40px;
+		padding: 0;
+		font-family: $serif;
+		font-size: 2.2em;
+		font-weight: 700;
+		-webkit-font-smoothing: antialiased;
+		letter-spacing: -2px;
+	}
+}
+
+
+
+
+.beerThumb {
+	box-sizing: border-box;
+	margin: 0 auto;
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 50px;
+	max-width: 330px;
+	-webkit-box-shadow: 0px 3px 15px -2px rgba(0,0,0,0.65);
+	-moz-box-shadow: 0px 3px 15px -2px rgba(0,0,0,0.65);
+	box-shadow: 0px 3px 15px -2px rgba(0,0,0,0.65);
+	
+	img {
+		max-width: 100%;
+		float: left;
+	}
+
+	h3 {
+		color: #c9c48a;
+		font-family: $serif;
+		font-size: 1.9em;
+		-webkit-font-smoothing: antialiased;
+		padding: 0;
+		margin: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		color: #c9c48a;
+		width: 270px;
+		display: inline-block;
+		list-style: none;
+		text-align: left;
+		-webkit-font-smoothing: antialiased;
+		margin-bottom: 15px;
+		font-size: .95em;
+		position: relative
+	}
+
+	span {
+		color: #fff;
+		text-align: right;
+		position: absolute;
+		right: 0px;
+		padding-bottom: 10px;
+	}
+
+	@include smallish {
+		max-width: 250px;
+		margin-right: 3%;
+		
+		h3 {
+			font-size: 1.4em;
+		}
+		
+
+		li {
+			font-size: .75em;
+			width: 200px;
+		}
+	}
+
+	@include notsmall {
+		max-width: 300px;
+		margin-right: 6%;
+
+		img {
+			max-width: 100%;
+		}
+
+		h3 {
+			font-size: 1.6em;
+		}
+
+		li {
+			width: 240px;
+			font-size: .95em;
+		}
+	}
+
+	@include medium {
+		max-width: 300px;
+		margin-right: 6%;
+	}
+
+	@include large {
+		max-width: 250px;
+		margin-right: 2%;
+
+		h3 {
+			font-size: 1.4em;
+		}
+
+		li {
+			width: 200px;
+			font-size: .75em;
+		}
+	}
+}
+
+
+.thumbBox {
+	color: #fff;
+	width: 330px;
+	padding-top: 2px;
+	padding-bottom: 20px;
+	background-color: #3b4949;
+	background: url(../images/list_bg.jpg) no-repeat center;
+	overflow: hidden;
+
+
+	@include smallish {
+		width: 250px;
+	}
+
+	@include notsmall{
+		width: 300px;
+	}
+	
+	@include large {
+		width: 250px;
+	}
+}
+
+.zero {
+	margin-right: 0;
+}
+
+.mright {
+
+	@include large {
+	margin-right: 2%;
+	}
+}
+
+

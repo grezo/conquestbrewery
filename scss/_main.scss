@@ -1,0 +1,668 @@
+.mainContent {
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #3b4949;
+	background: url(../images/m_bg.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+	max-width: 100%;
+	margin-top: -50px;
+	padding-top: 75px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: -1;
+
+	h2 {
+		margin: 0;
+		margin-bottom: 10px;
+		padding: 0;
+		font-family: $serif;
+		font-size: 2.2em;
+		font-weight: 400;
+		-webkit-font-smoothing: antialiased;
+		letter-spacing: -2px;
+	}
+
+	.knight img {
+			display: none;
+		}
+
+	@include notsmall {
+		background: url(../images/large_bg.jpg) no-repeat;
+		background-size: cover;
+		text-align: center;
+		height: 700px;
+
+		h2 {
+			
+			font-size: 2em;
+			-webkit-font-smoothing: antialiased;
+		}
+	}
+
+	@include mediumish {
+		background: url(../images/large_bg.jpg) no-repeat;
+		background-size: cover;
+		text-align: center;
+		height: 720px;
+
+		.knight img {
+			display: inline-block;
+			width: 60%;
+			float: right;
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+		}
+
+		h2 {
+			margin: 0;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			padding: 0;
+			font-family: $serif;
+			font-size: 1.5em;
+			font-weight: 400;
+			-webkit-font-smoothing: antialiased;
+			letter-spacing: -2px;
+		}
+
+		.knight img {
+			display: inline-block;
+			padding-top: 100px;
+			width: 50%;
+			float: right;
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+		}
+
+		@include large {
+			text-align: center;
+			background: url(../images/large_bg.jpg) no-repeat;
+			background-size: cover;
+			position: relative;
+			z-index: -1;
+			height: 850px;
+
+			.knight img {
+				display: inline-block;
+				max-width: 50%;
+				float: right;
+				position: absolute;
+				right: 0px;
+				bottom: 0px;
+			}
+
+			@include xlarge{
+				max-width: 1200px;
+				height: 900px;
+
+				.knight img {
+					display: inline-block;
+					padding-top: 100px;
+					max-width: 48%;
+					float: right;
+					position: absolute;
+					right: 0px;
+					bottom: 0px;
+				}
+			}
+		}
+	}
+}
+
+.location {
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+	p {
+		margin: 0;
+		color: #c9c48a;
+		font-family: $sans-serif;
+		font-size: 1.3em;
+		font-weight: 400;
+		-webkit-font-smoothing: antialiased;
+	}
+
+
+// LOCATION SMALLISH -----------------------> //
+
+
+@include smallish {
+		margin-top: 3%;
+		text-align: center;
+		
+		h2 {
+			font-size: 3em;
+		}
+
+		p {
+			margin: 0;
+			color: #c9c48a;
+			font-family: $sans-serif;
+			font-size: 1.8em;
+			font-weight: 400;
+			-webkit-font-smoothing: antialiased;
+		}
+	}
+
+
+
+// LOCATION MEDIUMISH --------------------> //
+
+
+
+
+	@include mediumish {
+		margin-top: 4%;
+		text-align: center;
+		width: 60%;
+		margin-right: 2%;
+		float: left;
+		
+		h2 {
+			font-size: 3.5em;
+		}
+
+		p {
+			margin: 0;
+			color: #c9c48a;
+			font-family: $sans-serif;
+			font-size: 1.7em;
+			font-weight: 400;
+			-webkit-font-smoothing: antialiased;
+		}
+	}
+
+
+
+
+// LOCATION LARGE --------------------> //
+
+
+
+
+	@include large {
+		margin-top: 8%;
+		width: 60%;
+		margin-right: 2%;
+		float: left;
+
+		h2 {
+			font-size: 3em;
+		}
+
+		p {
+			margin: 0;
+			color: #c9c48a;
+			font-family: $sans-serif;
+			font-size: 1.8em;
+			font-weight: 400;
+			-webkit-font-smoothing: antialiased;
+		}
+		
+
+
+
+// LOCATION X-LARGE --------------------> //
+
+
+
+
+		@include xlarge {
+			margin-top: 3%;
+			width: 60%;
+			
+			h2 {
+				font-size: 3.2em;
+			}
+
+			p {
+				margin: 0;
+				color: #c9c48a;
+				font-family: $sans-serif;
+				font-size: 2em;
+				font-weight: 400;
+				-webkit-font-smoothing: antialiased;
+			}
+		}
+	}
+}
+
+
+.hours {
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-right: 1%;
+	
+	h2 {
+		margin-bottom: 10px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+		width: 300px;
+		list-style: none;
+		text-align: left;
+		-webkit-font-smoothing: antialiased;
+		border-bottom: 1px solid #c9c48a;
+		padding-bottom: 7px;
+		margin-bottom: 15px;
+		font-size: 1em;
+		position: relative
+	}
+
+	span {
+		position: absolute;
+		right: 0px;
+	}
+
+
+
+
+
+// HOURS SMALLISH --------------------> //
+
+
+
+
+
+	@include smallish {
+
+		h2 {
+			font-size: 3em;
+		}
+
+		li {
+			display: inline-block;
+			width: 400px;
+			list-style: none;
+			text-align: left;
+			-webkit-font-smoothing: antialiased;
+			border-bottom: 1px solid #c9c48a;
+			padding-bottom: 7px;
+			margin-bottom: 15px;
+			font-size: 1.5em;
+			position: relative
+		}
+	}
+
+
+
+
+
+// HOURS MEDIUMISH --------------------> //
+
+
+
+
+
+	@include mediumish {
+		width: 60%;
+		float: left;
+		clear: left;
+
+		h2 {
+			font-size: 3.5em;
+		}
+
+		li {
+			display: inline-block;
+			width: 300px;
+			list-style: none;
+			text-align: left;
+			-webkit-font-smoothing: antialiased;
+			border-bottom: 1px solid #c9c48a;
+			padding-bottom: 7px;
+			margin-bottom: 15px;
+			font-size: 1.2em;
+			position: relative
+		}
+	}
+
+
+
+
+
+// HOURS LARGE --------------------> //
+
+
+
+
+
+	@include large {
+		width: 60%;
+		float: left;
+
+		h2 {
+			font-size: 3em;
+		}
+
+		li {
+			display: inline-block;
+			width: 350px;
+			list-style: none;
+			text-align: left;
+			-webkit-font-smoothing: antialiased;
+			border-bottom: 1px solid #c9c48a;
+			padding-bottom: 7px;
+			margin-bottom: 15px;
+			font-size: 1.3em;
+			position: relative
+		}
+
+
+
+
+// HOURS X-LARGE --------------------> //
+
+
+
+
+		@include xlarge {
+			width: 60%;
+			float: left;
+
+			h2 {
+				font-size: 3.2em;
+			}
+
+			li {
+				display: inline-block;
+				width: 430px;
+				list-style: none;
+				text-align: left;
+				-webkit-font-smoothing: antialiased;
+				border-bottom: 1px solid #c9c48a;
+				padding-bottom: 7px;
+				margin-bottom: 15px;
+				font-size: 1.3em;
+				position: relative
+			}
+		}
+	}
+}
+
+
+.engage {
+	padding-bottom: 40px;
+	box-sizing: border-box;
+
+
+	h2 {
+		font-size: 2.2em;
+		margin-bottom: 10px;
+	}
+
+	ul {
+		padding: 0 0 20px;
+		margin: 0;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		height: 40px;
+		margin-right: 10px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #c9c48a;
+		-webkit-font-smoothing: antialiased;
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-indent: -9999px;
+		position: relative;  // Font awesome technique with SASS.  You must text-indent the text then absolutely position the pseudo element to top: 0px / right: 0px to get the icon to show up. //  
+
+		&:hover {
+			color: #fff;
+		}
+
+		&:before {
+			margin: 0 auto;
+			font-family: 'FontAwesome';
+			-webkit-font-smoothing: antialiased;
+			content: $fa-var-facebook-square;
+			font-size: 2.4em;
+			display: block;
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			top:0; left: 0;
+			text-indent: 0;
+			line-height: 40px;
+		}
+	}
+
+
+// ENGAGE SMALLISH
+
+
+@include smallish {
+	margin-bottom: 100px;
+	box-sizing: border-box;
+
+
+	h2 {
+		font-size: 2.7em;
+		margin-bottom: 10px;
+	}
+
+	ul {
+		padding: 0 0 25px;
+		margin: 0;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		height: 60px;
+		margin-right: 25px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #c9c48a;
+		-webkit-font-smoothing: antialiased;
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-indent: -9999px;
+		position: relative;  // Font awesome technique with SASS.  You must text-indent the text then absolutely position the pseudo element to top: 0px / right: 0px to get the icon to show up. //  
+
+		&:hover {
+			color: #fff;
+		}
+
+		&:before {
+			margin: 0 auto;
+			font-family: 'FontAwesome';
+			-webkit-font-smoothing: antialiased;
+			content: $fa-var-facebook-square;
+			font-size: 3.1em;
+			display: block;
+			width: 60px;
+			height: 40px;
+			position: absolute;
+			top:0; left: 0;
+			text-indent: 0;
+			line-height: 60px;
+		}
+	}
+}
+
+
+
+// ENGAGE MEDIUMISH --------------------> //
+
+		@include notsmall {
+			display: none;
+		}
+	}
+
+
+.maxedBg {
+	@include xlarge {
+		background: url(../images/index_bg.jpg) no-repeat 0 0;
+		background-size: cover;
+		position: relative;
+		z-index: -1;
+	}
+}
+
+
+.maxedShadow {
+	@include xlarge {
+		margin: 0 auto;
+		max-width: 1200px;
+		display: block;
+ 		box-shadow: 0 45px 45px rgba(0, 0, 0, 50);	
+	}
+}
+
+
+
+
+
+// ===================== Homepage Footer ==================== //
+
+
+
+
+.mFooter {
+	margin: 0 auto;
+	margin-bottom: -10px;
+
+	img {
+		margin: 0 auto;
+		margin-top: -60px;
+		max-width: 100%;
+	}
+
+	@include smallish {
+		display: none;
+		margin-bottom: 0px;
+	}
+}
+
+
+.lgSocial {
+	text-align: center;
+	display: none;
+
+	@include notsmall {
+		display: block;
+
+	h2 {
+		margin: 0;
+		padding: 0;
+		font-family: $serif;
+		color: #fff;
+		font-size: 1.5em;
+		margin-right: 15px;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		display: inline-block;
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		height: 20px;
+		margin-right: 5px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #c9c48a;
+		-webkit-font-smoothing: antialiased;
+		display: block;
+		width: 40px;
+		height: 20px;
+		text-indent: -9999px;
+		position: relative;  // Font awesome technique with SASS.  You must text-indent the text then absolutely position the pseudo element to top: 0px / right: 0px to get the icon to show up. //  
+
+		&:hover {
+			color: #fff;
+		}
+
+		&:before {
+			margin: 0 auto;
+			font-family: 'FontAwesome';
+			-webkit-font-smoothing: antialiased;
+			content: $fa-var-facebook-square;
+			font-size: 2em;
+			display: block;
+			width: 30px;
+			height: 20px;
+			position: absolute;
+			top:0; left: 0;
+			text-indent: 0;
+			line-height: 20px;
+			}
+		}	
+	}
+}
+
+
+
+
+/* ====================SOCIAL ICONS==================== */
+
+
+
+
+.facebook {
+
+	a:before {
+		content: $fa-var-facebook-square;
+	}
+}
+
+.twitter {
+
+	a:before {
+		content: $fa-var-twitter-square;
+	}
+}
+
+.instagram {
+
+	a:before {
+			content: $fa-var-instagram;
+		}
+}
+
+.reddit {
+
+	a:before {
+			content: $fa-var-reddit-square;
+		}
+}
+
+.flickr {
+
+	a:before {
+		margin-right: 0;
+		content: $fa-var-flickr;
+		}
+}
+
+
