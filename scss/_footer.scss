@@ -4,9 +4,8 @@ footer {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background: url(../images/footer_lg.jpg) no-repeat;
+	background: url(../images/bg_repeat.jpg) repeat;
 	background-color: #1d2423;
-	background-size: cover;
 
 	@include notsmall {
 		padding-top: 5%;

@@ -1859,8 +1859,7 @@ h1 {
 .headNav {
   position: relative;
   background-color: #3b4949;
-  background: url(../images/footer_lg.jpg) no-repeat top center;
-  background-size: cover; }
+  background: url(../images/bg_repeat.jpg) repeat; }
   @media (min-width: 1200px) {
     .headNav {
       box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); } }
@@ -3105,9 +3104,8 @@ footer {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  background: url(../images/footer_lg.jpg) no-repeat;
-  background-color: #1d2423;
-  background-size: cover; }
+  background: url(../images/bg_repeat.jpg) repeat;
+  background-color: #1d2423; }
   @media (min-width: 720px) {
     footer {
       padding-top: 5%;

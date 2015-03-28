@@ -1,8 +1,7 @@
 .headNav {
 	position: relative;
 	background-color: #3b4949;
-	background: url(../images/footer_lg.jpg) no-repeat top center;
-	background-size: cover;
+	background: url(../images/bg_repeat.jpg) repeat;
 
 	@include xlarge {
 		box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);	
