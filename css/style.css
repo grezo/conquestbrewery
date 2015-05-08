@@ -2450,7 +2450,8 @@ li .no {
   text-align: center;
   background-color: #eeebec;
   color: #374a49;
-  max-width: 1200px; }
+  max-width: 1200px;
+  margin-bottom: 65px; }
   .listContent h2 {
     margin: 0;
     margin-bottom: 40px;
